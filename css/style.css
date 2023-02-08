@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-bg: #ff6900;
+    --discount: #ff0000;
+    --label: #008000;
+    --details: #000000;
+}
