@@ -1,3 +1,4 @@
+        /* General  */
 * {
     margin: 0;
     padding: 0;
@@ -14,16 +15,42 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-}
-
-header {
-    background-color: var(--header-bg);
+    margin: 0 10rem 0 10rem;
 }
 
 .d-flex {
     display: flex;
+    flex-wrap: wrap;
 }
+
+
 
 .space-between {
     justify-content: space-between;
 }
+
+.jc-center {
+    justify-content: center;
+}
+
+/* .m-top-2 {
+    margin-top: 2rem;
+} */
+
+        /* Header  */
+header {
+    background-color: var(--header-bg);
+}
+header img {
+    width: 100px;
+}
+
+header div.container {
+    padding: .5rem;
+}
+        /* Main */
+main img {
+    width: calc(100% / 3);
+    padding: 2rem .5rem;
+}
+
