@@ -95,6 +95,11 @@ div.small-box {
     padding: .2rem .5rem;
 }
 
+.small-box:hover {
+    color: red;
+    cursor: pointer;
+}
+
 .label-style {
     padding: .3rem .5rem;
     font-size: .7rem;
