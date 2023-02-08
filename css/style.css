@@ -143,6 +143,11 @@ h5.title {
 footer {
     background-color: var(--details);
     color: var(--primary-color);
-    padding: .5rem;
+    padding: 1rem .5rem;
+    line-height: 1.3rem;
+
 }
 
+div.info h4{
+    padding: .1rem;
+}
