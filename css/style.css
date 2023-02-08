@@ -61,6 +61,11 @@ a {
 header {
     background-color: var(--header-bg);
     font-size: .8rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    
+    
 }
 header img {
     width: 100px;
@@ -68,6 +73,7 @@ header img {
 
 header div.container {
     padding: 1rem .5rem;
+    
 }
         /* Main */
 main img {
@@ -127,6 +133,10 @@ h5.title {
 .original {
     color: var(--details);
     text-decoration: line-through;
+}
+
+.row {
+    padding-top: 3.5rem;
 }
 
         /* Footer */
