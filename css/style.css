@@ -54,3 +54,10 @@ main img {
     padding: 2rem .5rem;
 }
 
+        /* Footer */
+footer {
+    background-color: var(--details);
+    color: white;
+    padding: .5rem;
+}
+
