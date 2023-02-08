@@ -136,7 +136,7 @@ h5.title {
 }
 
 .row {
-    padding-top: 3.5rem;
+    padding: 3.5rem;
 }
 .product-b {
     display: none;
@@ -147,6 +147,9 @@ h5.title {
     top: 1px;
 }
 
+.one-label{
+    left: 9px;
+}
         /* Footer */
 footer {
     background-color: var(--details);
