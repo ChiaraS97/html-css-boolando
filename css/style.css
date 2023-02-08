@@ -138,6 +138,14 @@ h5.title {
 .row {
     padding-top: 3.5rem;
 }
+.product-b {
+    display: none;
+}
+.card:hover .product-b{
+    position: absolute;
+    display: block;
+    top: 1px;
+}
 
         /* Footer */
 footer {
